@@ -1,5 +1,5 @@
 /* =========================================================
-   ALEX MORGAN — LUXURY RÉSUMÉ SITE
+   RATNESH RASTOGI — PORTFOLIO
    Content data + rendering + interactions
 ========================================================= */
 
@@ -15,98 +15,111 @@
   {
     title: "Programming Languages",
     icon: iconCode(),
-    skills: ["Python", "JavaScript", "C++"]
+    skills: ["C", "C++", "Java", "Python", "JavaScript"]
   },
   {
-    title: "Web Development",
+    title: "Frontend Development",
     icon: iconLayout(),
-    skills: ["HTML", "CSS", "React"]
+    skills: ["HTML", "CSS", "React", "Tailwind CSS", "Vite"]
   },
   {
-    title: "Databases",
-    icon: iconDatabase(),
-    skills: ["SQL", "MongoDB"]
-  },
-  {
-    title: "Data Analytics",
+    title: "AI & Automation",
     icon: iconChart(),
-    skills: ["Pandas", "NumPy", "Power BI", "Excel"]
-  },
-  {
-    title: "Machine Learning",
-    icon: iconChart(),
-    skills: ["Scikit-learn", "TensorFlow", "Data Visualization"]
+    skills: ["AI Tools", "AI APIs", "Prompt Engineering"]
   },
   {
     title: "Development Tools",
     icon: iconTool(),
-    skills: ["Git", "GitHub", "VS Code", "Jupyter Notebook"]
+    skills: ["Git", "GitHub", "VS Code", "AI Coding Tools"]
+  },
+  {
+    title: "Computer Science Fundamentals",
+    icon: iconCode(),
+    skills: ["OOP", "Data Structures", "Problem Solving"]
+  },
+  {
+    title: "Currently Learning",
+    icon: iconCode(),
+    skills: ["Advanced React", "Backend Development"]
   }
 ];
 
   const experience = [
   {
-    role: "Software Development Intern",
-    org: "Seeking Internship Opportunity",
+    role: "Independent Developer",
+    org: "Personal Projects & Development",
     period: "2025 - Present",
     points: [
-      "Building projects in Python, Data Analytics and Machine Learning.",
-      "Developing practical software solutions for real-world problems.",
-      "Continuously improving programming and problem-solving skills."
+      "Building AI-based applications and modern web experiences.",
+      "Developing projects using Python, Java, C++, React, and JavaScript.",
+      "Exploring software development practices through real-world projects."
     ]
   }
 ];
 
   const education = [
   {
-    role: "Bachelor of Technology (Computer Science)",
+    role: "Bachelor of Computer Applications (BCA)",
     org: "National Post Graduate College",
     period: "2025 - 2028",
     points: [
-        "Current CGPA: 8.1",
-      "Focused on Software Development, Data Analytics and Machine Learning."
+      "Focused on programming, software development, and computer science fundamentals.",
+      "Learning Data Structures, Web Development, AI, and modern technologies."
     ]
   }
 ];
 
   const projects = [
   {
-    title: "Smart PDF Merger Tool",
-    icon: iconTool(),
-    description: "Automated merging of 100+ PDF files, reducing manual effort by 80%. Built using Python and Tkinter.",
-    tech: ["Python", "Tkinter"],
+    title: "VisionAI",
+    icon: iconChart(),
+    description:
+      "An AI-assisted visual application exploring intelligent image-based interactions and modern AI capabilities.",
+    tech: ["Python", "AI Tools", "Computer Vision Concepts"],
     github: "#",
     demo: "#"
   },
 
   {
-    title: "Airport Capacity Analysis Dashboard",
-    icon: iconChart(),
-    description: "Analyzed passenger traffic data and visualized insights using Power BI and Python models.",
-    tech: ["Python", "Power BI", "Pandas"],
-    github: "#",
-    demo: "#"
+    title: "SpeakAI",
+    icon: iconMic(),
+    description:
+      "A speech-based AI application that explores voice interaction and AI-powered features through a modern user experience.",
+    tech: ["Python", "AI APIs", "Speech Technology"],
+    github: "https://github.com/Ratnesh-08/SpeakAI",
+    demo: "https://speakai-l066.onrender.com"
   },
 
   {
     title: "Student Management System",
     icon: iconDatabase(),
-    description: "CRUD-based application using Python and SQL with faster record retrieval.",
-    tech: ["Python", "SQL"],
+    description:
+      "A management application designed to organize and manage student records with efficient data handling and user interaction.",
+    tech: ["Java", "C++", "OOP Concepts"],
     github: "#",
     demo: "#"
   },
 
   {
-  title: "Portfolio Website",
-  icon: iconLayout(),
-  description: "Responsive portfolio website with modern UI design and animations.",
-  tech: ["HTML", "CSS", "JavaScript"],
-  github: "https://github.com/Ratnesh-08/Portfolio",
-  demo: "#"
+    title: "Iron Vault",
+    icon: iconLayout(),
+    description:
+      "A premium React fitness website template designed for gyms, personal trainers, and modern wellness brands.",
+    tech: ["React", "TypeScript", "Tailwind CSS", "Vite"],
+    github: "https://github.com/Ratnesh-08/Iron-Vault",
+    demo: "https://iron-vault-h9el.onrender.com"
+  },
+
+  {
+    title: "EliteCommerce",
+    icon: iconWallet(),
+    description:
+      "A premium eCommerce platform concept focused on modern UI, product experience, and scalable frontend architecture.",
+    tech: ["React", "TypeScript", "Tailwind CSS"],
+    github: "#",
+    demo: "YOUR_PREVIEW_LINK"
   }
 ];
-
   const certifications = [
   {
     title: "Use AI as a Creative or Expert Partner",
@@ -118,15 +131,61 @@
 
   const achievements = [
   {
-    title: "Portfolio Development",
-    description: "Designed and developed a responsive personal portfolio website using HTML, CSS and JavaScript.",
-    icon: iconStar()
+    title:"AI Project Development",
+    description:"Built experimental AI applications including VisionAI and SpeechAI.",
+    icon:iconStar()
   },
+
   {
-    title: "AI & Productivity",
-    description: "Completed Google's 'Use AI as a Creative or Expert Partner' certification through Coursera.",
-    icon: iconBadge()
-  }
+    title:"Frontend Development",
+    description:"Created responsive websites and modern UI experiences using React and web technologies.",
+    icon:iconLayout()
+  },
+
+  {
+    title:"Continuous Learning",
+    description:"Actively improving programming, DSA, and software development skills.",
+    icon:iconBadge()
+  } 
+];
+
+const products = [
+
+{
+  title: "Iron Vault",
+  icon: iconLayout(),
+  description:
+    "Premium React template for gyms, fitness studios, personal trainers, and wellness brands.",
+
+  tech: [
+    "React",
+    "TypeScript",
+    "Tailwind CSS",
+    "Vite"
+  ],
+
+  preview: "https://ratneshstudios.lemonsqueezy.com/checkout",
+
+  buy: "#"
+},
+
+{
+  title: "EliteCommerce",
+  icon: iconWallet(),
+  description:
+    "Modern full-stack eCommerce template designed with premium UI and scalable architecture.",
+
+  tech: [
+    "React",
+    "TypeScript",
+    "Node.js"
+  ],
+
+  preview: "YOUR_PREVIEW",
+
+  buy: "ratneshstudios.lemonsqueezy.com"
+}
+
 ];
 
   /* -------------------------------------------------------
@@ -189,6 +248,42 @@
     `).join("");
   }
 
+  function renderProducts() {
+  const grid = document.getElementById("productsGrid");
+
+  if (!grid) return;
+
+  grid.innerHTML = products.map((p, i) => `
+    <article class="project-card glass reveal" data-reveal-delay="${(i % 3) * 90}">
+      <span class="project-icon">${p.icon}</span>
+
+      <h3>${p.title}</h3>
+
+      <p>${p.description}</p>
+
+      <div class="project-tech">
+        ${p.tech.map(t => `<span>${t}</span>`).join("")}
+      </div>
+
+      <div class="project-links">
+
+        ${p.preview && p.preview !== "#"
+          ? `<a href="${p.preview}" target="_blank" rel="noopener">
+              ${iconExternal()} Live Preview
+            </a>`
+          : ""}
+
+        ${p.buy && p.buy !== "#"
+          ? `<a href="${p.buy}" target="_blank" rel="noopener">
+              ${iconWallet()} Buy Template
+            </a>`
+          : ""}
+
+      </div>
+    </article>
+  `).join("");
+}
+
   function renderProjects() {
     const grid = document.getElementById("projectsGrid");
     grid.innerHTML = projects.map((p, i) => `
@@ -198,8 +293,19 @@
         <p>${p.description}</p>
         <div class="project-tech">${p.tech.map(t => `<span>${t}</span>`).join("")}</div>
         <div class="project-links">
-          <a href="${p.github}" target="_blank" rel="noopener">${iconGithub()} Code</a>
-          <a href="${p.demo}" target="_blank" rel="noopener">${iconExternal()} Live Demo</a>
+
+        ${p.github && p.github !== "#" 
+        ? `<a href="${p.github}" target="_blank" rel="noopener">
+        ${iconGithub()} Code
+        </a>` 
+        : ""}
+
+        ${p.demo && p.demo !== "#" 
+        ? `<a href="${p.demo}" target="_blank" rel="noopener">
+        ${iconExternal()} Live Demo
+        </a>`     
+        : ""}
+
         </div>
       </article>
     `).join("");
@@ -330,6 +436,7 @@
     renderTimeline("experienceTimeline", experience);
     renderTimeline("educationTimeline", education);
     renderProjects();
+    renderProducts(); 
     renderCerts();
     renderAchievements();
 
