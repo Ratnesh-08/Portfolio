@@ -15,7 +15,7 @@
   {
     title: "Programming Languages",
     icon: iconCode(),
-    skills: ["C", "C++", "Java", "Python", "JavaScript"]
+    skills: ["C", "C++", "Java", "Python", "JavaScript", "TypeScript"]
   },
   {
     title: "Frontend Development",
@@ -23,19 +23,19 @@
     skills: ["HTML", "CSS", "React", "Tailwind CSS", "Vite"]
   },
   {
-    title: "AI & Automation",
+    title: "AI & Tools",
     icon: iconChart(),
-    skills: ["AI Tools", "AI APIs", "Prompt Engineering"]
+    skills: ["Prompt Engineering", "AI APIs", "Speech Recognition", "AI Coding Tools"]
   },
   {
     title: "Development Tools",
     icon: iconTool(),
-    skills: ["Git", "GitHub", "VS Code", "AI Coding Tools"]
+    skills: ["Git", "GitHub", "VS Code", "Lemon Squeezy", "Gumroad"]
   },
   {
     title: "Computer Science Fundamentals",
     icon: iconCode(),
-    skills: ["OOP", "Data Structures", "Problem Solving"]
+    skills: ["Object-Oriented Programming", "Data Structures", "Algorithms", "Debugging", "Problem Solving"]
   },
   {
     title: "Currently Learning",
@@ -46,13 +46,14 @@
 
   const experience = [
   {
-    role: "Independent Developer",
-    org: "Personal Projects & Development",
-    period: "2025 - Present",
+    role: "Independent Software Developer",
+    org: "Self-Employed",
+    period: "2026 - Present",
     points: [
-      "Building AI-based applications and modern web experiences.",
-      "Developing projects using Python, Java, C++, React, and JavaScript.",
-      "Exploring software development practices through real-world projects."
+      "Develop AI-powered applications and modern React web applications using Python, React, TypeScript, and JavaScript.",
+      "Design and publish premium website templates on Lemon Squeezy and Gumroad.",
+      "Build responsive user interfaces with reusable React components, Tailwind CSS, and Vite.",
+      "Use Git and GitHub for version control while integrating AI tools to accelerate development workflows."
     ]
   }
 ];
@@ -74,7 +75,7 @@
     title: "VisionAI",
     icon: iconChart(),
     description:
-      "An AI-assisted visual application exploring intelligent image-based interactions and modern AI capabilities.",
+      "Built an AI-powered image analysis application using Python and computer vision techniques to process images and generate intelligent visual insights.",
     tech: ["Python", "AI Tools", "Computer Vision Concepts"],
     github: "#",
     demo: "#"
@@ -84,48 +85,36 @@
     title: "SpeakAI",
     icon: iconMic(),
     description:
-      "A speech-based AI application that explores voice interaction and AI-powered features through a modern user experience.",
+      "Developed a speech-enabled AI assistant using Python and speech recognition. Integrated AI APIs to process voice input and generate conversational responses.",
     tech: ["Python", "AI APIs", "Speech Technology"],
     github: "https://github.com/Ratnesh-08/SpeakAI",
     demo: "https://speakai-l066.onrender.com"
   },
 
   {
-    title: "Student Management System",
-    icon: iconDatabase(),
-    description:
-      "A management application designed to organize and manage student records with efficient data handling and user interaction.",
-    tech: ["Java", "C++", "OOP Concepts"],
-    github: "#",
-    demo: "#"
-  },
-
-  {
     title: "Iron Vault",
     icon: iconLayout(),
     description:
-      "A premium React fitness website template designed for gyms, personal trainers, and modern wellness brands.",
+      "Developed a premium multi-page fitness website using React, TypeScript, Tailwind CSS, and Vite. Published as a commercial website template on Lemon Squeezy and Gumroad.",
     tech: ["React", "TypeScript", "Tailwind CSS", "Vite"],
     github: "https://github.com/Ratnesh-08/Iron-Vault",
     demo: "https://iron-vault-h9el.onrender.com"
   },
-
-  {
-    title: "EliteCommerce",
-    icon: iconWallet(),
-    description:
-      "A premium eCommerce platform concept focused on modern UI, product experience, and scalable frontend architecture.",
-    tech: ["React", "TypeScript", "Tailwind CSS"],
-    github: "#",
-    demo: "YOUR_PREVIEW_LINK"
-  }
 ];
   const certifications = [
   {
-    title: "Use AI as a Creative or Expert Partner",
-    issuer: "Google (Coursera)",
-    date: "March 2026",
-    icon: iconBadge()
+    title: "Google AI Essentials",
+    issuer: "Google • Coursera",
+    description:
+      "Completed Google's AI Essentials program covering prompt engineering, AI-assisted workflows, productivity, and responsible AI.",
+    link: "YOUR_GOOGLE_CERTIFICATE_LINK"
+  },
+  {
+    title: "Data Structures and Algorithms in C",
+    issuer: "AICTE • EduSkills Academy",
+    description:
+      "Completed an 8-week virtual internship focused on Data Structures, Algorithms, and practical problem solving using C.",
+    link: "YOUR_AICTE_CERTIFICATE_LINK"
   }
 ];
 
@@ -154,8 +143,9 @@ const products = [
 {
   title: "Iron Vault",
   icon: iconLayout(),
+
   description:
-    "Premium React template for gyms, fitness studios, personal trainers, and wellness brands.",
+    "Premium React website template for gyms, fitness studios, personal trainers, and wellness brands. Built with reusable components, modern UI, and responsive design.",
 
   tech: [
     "React",
@@ -164,27 +154,12 @@ const products = [
     "Vite"
   ],
 
-  preview: "https://ratneshstudios.lemonsqueezy.com/checkout",
+  preview: "https://iron-vault-h6el.onrender.com",
 
-  buy: "#"
+  buy: "https://ratneshstudios.lemonsqueezy.com/buy/YOUR_PRODUCT",
+
+  gumroad: "https://ratnesh57.gumroad.com/l/iron-vault-template"
 },
-
-{
-  title: "EliteCommerce",
-  icon: iconWallet(),
-  description:
-    "Modern full-stack eCommerce template designed with premium UI and scalable architecture.",
-
-  tech: [
-    "React",
-    "TypeScript",
-    "Node.js"
-  ],
-
-  preview: "YOUR_PREVIEW",
-
-  buy: "ratneshstudios.lemonsqueezy.com"
-}
 
 ];
 
