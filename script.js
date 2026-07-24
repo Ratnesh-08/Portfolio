@@ -103,15 +103,19 @@
 ];
   const certifications = [
   {
+    icon: "🤖",
     title: "Google AI Essentials",
     issuer: "Google • Coursera",
+    date: "2026",
     description:
       "Completed Google's AI Essentials program covering prompt engineering, AI-assisted workflows, productivity, and responsible AI.",
     link: "YOUR_GOOGLE_CERTIFICATE_LINK"
   },
   {
+    icon: "💻",
     title: "Data Structures and Algorithms in C",
     issuer: "AICTE • EduSkills Academy",
+    date: "Apr – Jun 2026",
     description:
       "Completed an 8-week virtual internship focused on Data Structures, Algorithms, and practical problem solving using C.",
     link: "YOUR_AICTE_CERTIFICATE_LINK"
@@ -158,7 +162,7 @@ const products = [
 
   buy: "https://ratnesh57.gumroad.com/l/iron-vault-template",
 
-  gumroad: "https://ratneshstudios.lemonsqueezy.com/buy/YOUR_PRODUCT"
+  lemon_squeezy: "https://ratneshstudios.lemonsqueezy.com/buy/YOUR_PRODUCT"
 },
 
 ];
