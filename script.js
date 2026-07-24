@@ -98,7 +98,7 @@
       "Developed a premium multi-page fitness website using React, TypeScript, Tailwind CSS, and Vite. Published as a commercial website template on Lemon Squeezy and Gumroad.",
     tech: ["React", "TypeScript", "Tailwind CSS", "Vite"],
     github: "https://github.com/Ratnesh-08/Iron-Vault",
-    demo: "https://iron-vault-h9el.onrender.com"
+    demo: https://iron-vault-h9el.onrender.com
   },
 ];
   const certifications = [
