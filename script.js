@@ -156,9 +156,9 @@ const products = [
 
   preview: "https://iron-vault-h9el.onrender.com",
 
-  buy: "https://ratneshstudios.lemonsqueezy.com/buy/YOUR_PRODUCT",
+  buy: "https://ratnesh57.gumroad.com/l/iron-vault-template",
 
-  gumroad: "https://ratnesh57.gumroad.com/l/iron-vault-template"
+  gumroad: "https://ratneshstudios.lemonsqueezy.com/buy/YOUR_PRODUCT"
 },
 
 ];
