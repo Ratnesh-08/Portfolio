@@ -841,7 +841,18 @@ h1, h2, h3, h4 { font-family: var(--font-display); color: var(--graphite-900); f
 
 .cert-card h3, .achievement-card h3 { font-size: 0.98rem; margin-bottom: 4px; }
 .cert-card p, .achievement-card p { font-size: 0.84rem; color: var(--graphite-600); }
-.cert-meta { font-size: 0.76rem; color: var(--accent-deep); font-weight: 600; margin-top: 6px; display: block; }
+.cert-meta{
+    display:inline-block;
+    margin-top:10px;
+    font-size:.82rem;
+    font-weight:600;
+    color:var(--accent-deep);
+    transition:.3s;
+}
+
+.cert-meta:hover{
+    color:var(--graphite-900);
+}
 
 /* =========================================================
    CTA SECTION

@@ -35,7 +35,7 @@
   {
     title: "Computer Science Fundamentals",
     icon: iconCode(),
-    skills: ["Object-Oriented Programming", "Data Structures", "Algorithms", "Debugging", "Problem Solving"]
+    skills: ["Object-Oriented Programming", "Data Structures", "Algorithms"]
   },
   {
     title: "Currently Learning",
@@ -109,7 +109,7 @@
     date: "2026",
     description:
       "Completed Google's AI Essentials program covering prompt engineering, AI-assisted workflows, productivity, and responsible AI.",
-    link: "YOUR_GOOGLE_CERTIFICATE_LINK"
+    link: "certificates/google-ai-essentials.pdf"
   },
   {
     icon: "💻",
@@ -118,7 +118,7 @@
     date: "Apr – Jun 2026",
     description:
       "Completed an 8-week virtual internship focused on Data Structures, Algorithms, and practical problem solving using C.",
-    link: "YOUR_AICTE_CERTIFICATE_LINK"
+    link: "certificates/dsa-aicte.pdf"
   }
 ];
 
@@ -294,11 +294,15 @@ const products = [
     const grid = document.getElementById("certGrid");
     grid.innerHTML = certifications.map((c, i) => `
       <div class="cert-card glass reveal" data-reveal-delay="${(i % 2) * 90}">
-        <span class="cert-icon">${c.icon}</span>
+        <span class="cert-icon">🏆</span>
         <div>
           <h3>${c.title}</h3>
           <p>${c.issuer}</p>
-          <span class="cert-meta">${c.date}</span>
+          <a href="${c.link}"
+            class="cert-meta"
+            target="_blank">
+            View Certificate ↗
+          </a>
         </div>
       </div>
     `).join("");
