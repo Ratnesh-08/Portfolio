@@ -119,7 +119,16 @@
     description:
       "Completed an 8-week virtual internship focused on Data Structures, Algorithms, and practical problem solving using C.",
     link: "certificates/dsa-aicte.pdf"
-  }
+  },
+  {
+  icon: "📊",
+  title: "Big Data Fundamentals Virtual Internship",
+  issuer: "EduSkills Foundation",
+  date: "Jun – Aug 2026",
+  description:
+    "Successfully completed an 8-week virtual internship focused on Big Data fundamentals, data processing concepts, and practical industry-oriented learning.",
+  link: "certificates/big-data-fundamentals.pdf"
+}
 ];
 
   const achievements = [
@@ -254,10 +263,15 @@ const products = [
 
         ${p.buy && p.buy !== "#"
           ? `<a href="${p.buy}" target="_blank" rel="noopener">
-              ${iconWallet()} Buy Template
+              ${iconWallet()} Gumroad
             </a>`
           : ""}
 
+${p.lemon_squeezy && p.lemon_squeezy !== "#"
+  ? `<a href="${p.lemon_squeezy}" target="_blank" rel="noopener">
+      ${iconWallet()} Lemon Squeezy
+    </a>`
+  : ""}
       </div>
     </article>
   `).join("");
