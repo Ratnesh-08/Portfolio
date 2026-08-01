@@ -171,7 +171,7 @@ const products = [
 
   buy: "https://ratnesh57.gumroad.com/l/iron-vault-template",
 
-  lemon_squeezy: "https://ratneshstudios.lemonsqueezy.com/buy/YOUR_PRODUCT"
+  lemon_squeezy: "https://ratneshstudios.lemonsqueezy.com/checkout/buy/6a475103-98e6-417f-be25-12213b968f0f"
 },
 
 ];
@@ -263,15 +263,16 @@ const products = [
 
         ${p.buy && p.buy !== "#"
           ? `<a href="${p.buy}" target="_blank" rel="noopener">
-              ${iconWallet()} Gumroad
-            </a>`
-          : ""}
+          ${iconWallet()} Gumroad
+        </a>`
+      : ""}
 
-${p.lemon_squeezy && p.lemon_squeezy !== "#"
-  ? `<a href="${p.lemon_squeezy}" target="_blank" rel="noopener">
-      ${iconWallet()} Lemon Squeezy
-    </a>`
-  : ""}
+        
+        ${p.lemon_squeezy && p.lemon_squeezy !== "#"
+          ? `<a href="${p.lemon_squeezy}" target="_blank" rel="noopener">
+          ${iconWallet()} Lemon Squeezy
+        </a>`
+      : ""}
       </div>
     </article>
   `).join("");
