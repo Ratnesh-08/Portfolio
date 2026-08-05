@@ -72,6 +72,23 @@
 
   const projects = [
   {
+    title: "Flow — Safe-To-Spend",
+    icon: iconWallet(),
+    description:
+      "A personal finance and safe-to-spend management application designed to help users understand their available spending money, track expenses, and manage their finances through a clean and intuitive interface.",
+    tech: [
+      "React",
+      "TypeScript",
+      "Vite",
+      "Tailwind CSS",
+      "Capacitor",
+      "Android"
+    ],
+    github: "https://github.com/Ratnesh-08/flow",
+    demo: "https://flow-personal-finance-app-flow-app.vercel.app"
+  },
+
+  {
     title: "VisionAI",
     icon: iconChart(),
     description:
